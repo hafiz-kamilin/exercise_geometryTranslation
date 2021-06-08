@@ -272,7 +272,7 @@ class Circle:
                 geometry = self.drawCircle()
                 # set the title
                 print("Moving the circle to coordinate [" + str(randomX) + ", " + str(randomY) + "].")
-                geometry.title("Point moved to coordinate [" + str(randomX) + ", " + str(randomY) + "].")
+                geometry.title("Circle moved to coordinate [" + str(randomX) + ", " + str(randomY) + "].")
 
             else:
 
@@ -287,7 +287,7 @@ class Circle:
                 geometry = self.drawCircle()
                 # set the title
                 print("Rotating the circle for " + str(turnDegree) + "° with coordinate ["  + str(xPivot) + ", " + str(yPivot) + "] as pivot.")
-                geometry.title("Point rotated for " + str(turnDegree) + "° with coordinate ["  + str(xPivot) + ", " + str(yPivot) + "] as pivot.")
+                geometry.title("Circle rotated for " + str(turnDegree) + "° with coordinate ["  + str(xPivot) + ", " + str(yPivot) + "] as pivot.")
 
             # shows the plotted circle on a graph
             geometry.draw()
